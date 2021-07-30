@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jrizkiii</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+
+    <div>
+        <section class="animated-background">
+            <div id="stars1"></div>
+            <div id="stars2"></div>
+        </section>
+
+        <a id="profilePicture" href="#popup">
+            <img src="https://i.imgur.com/ibtI9C5.png" alt="Profile Picture">
+        </a>
+
+        <div class="overlay" id="popup">
+            <div class="popup">
+                <div class="popup-photo">
+                    <a href="https://i.imgur.com/ibtI9C5.png" target="_blank">
+                        <img src="https://i.imgur.com/ibtI9C5.png" alt="Profile Picture">
+                    </a>
+                </div>
+                <div class="popup-quote">
+                    Currently studying at Bina Sarana Informatika University - D3 Information Systems
+                </div>
+
+                <a class="popup-close" onclick="history.back()">&times;</a>
+            </div>
+        </div>
+
+        <div id="userName">
+            Hello, i'm Julian Rizki Pratama
+        </div>
+
+        <div id="typedjs">
+            <p align="center">I'm <span id="typed"></span></p>
+        </div>
+
+        <div id="links">
+            <a class="link animate fadeInLeft one" href="https://github.com/jrizkiii" target="_blank"><i
+                    class="fab fa-github">&nbsp;</i>Visit my Github</a>
+            <a class="link animate fadeInRight two" href="https://www.linkedin.com/in/jrizkiii" target="_blank"><i
+                    class="fab fa-linkedin-in">&nbsp;</i>Visit my Linkedin</a>
+            <a class="link animate fadeInLeft three" href="https://www.facebook.com/jrizki.opl" target="_blank"><i
+                    class="fab fa-facebook-f">&nbsp;</i>Follow my Facebook</a>
+            <a class="link animate fadeInRight four" href="https://www.instagram.com/jrizkiii" target="_blank"><i
+                    class="fab fa-instagram">&nbsp;</i>Follow my Instagram</a>
+            <a class="link animate fadeInLeft five" href="https://t.me/jrizkiii" target="_blank"><i
+                    class="fab fa-telegram-plane">&nbsp;</i>Chat me on Telegram</a>
+            <a class="link animate fadeInRight six" href="https://wa.me/+6287781282994" target="_blank"><i
+                    class="fab fa-whatsapp">&nbsp;</i>Chat me on WhatsApp</a>
+        </div>
+
+        <div id="hashtag" class="animate fadeInUp seven">
+            Thank you for visiting my short-link
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+
+    <script type="text/javascript">
+        var typed = new Typed("#typed", {
+            strings: ["Web Developer Enthusiast.", "UI/UX Enthusiast.", "Amateur Street Photographer."],
+            typeSpeed: 60,
+            startDelay: 90,
+            loop: true
+        });
+    </script>
+
+</body>
+
+</html>
