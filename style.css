@@ -397,6 +397,29 @@ body {
     color: var(--bgColor);
 }
 
+@media (min-width: 280px) {
+
+  .link:hover {
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+  }
+
+  .link:active {
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+  }
+
+  .popup-close:hover {
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+  }
+
+  .popup-close:active {
+    background-color: var(--accentColor);
+    color: var(--bgColor);
+  }
+}
+
 
 /*-----------------------parallax-----------------------*/
 /* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
